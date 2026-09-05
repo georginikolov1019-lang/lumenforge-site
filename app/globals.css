@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+html { scroll-behavior: smooth; }
+body {
+  @apply bg-void text-stone-100 antialiased;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(99, 102, 241, 0.18), transparent),
+    radial-gradient(ellipse 60% 40% at 90% 10%, rgba(56, 189, 248, 0.12), transparent),
+    radial-gradient(ellipse 50% 30% at 10% 40%, rgba(139, 92, 246, 0.1), transparent);
+  min-height: 100vh;
+}
+@layer utilities {
+  .glass { @apply border border-white/10 bg-white/5 backdrop-blur-xl; }
+  .glow-text { text-shadow: 0 0 40px rgba(99, 102, 241, 0.45); }
+  .grain-overlay { position: relative; }
+  .grain-overlay::before {
+    content: "";
+    pointer-events: none;
+    position: fixed;
+    inset: 0;
+    z-index: 50;
+    opacity: 0.03;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+}
