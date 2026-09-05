@@ -1,7 +1,7 @@
 const tiers = [
   {
-    name: "Starter",
-    price: "$29",
+    name: "Free",
+    price: "$0",
     period: "/mo",
     blurb: "Solo creators testing long-form ideas.",
     features: [
@@ -10,7 +10,7 @@ const tiers = [
       "2 character locks",
       "Community support",
     ],
-    cta: "Start free trial",
+    cta: "Start free",
     highlighted: false,
   },
   {
