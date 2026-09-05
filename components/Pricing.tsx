@@ -109,7 +109,7 @@ export default function Pricing() {
                 ))}
               </ul>
               <a
-                href="#cta"
+                href="/login"
                 className={`mt-8 inline-flex items-center justify-center rounded-full px-5 py-2.5 text-sm font-semibold transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 ${
                   t.highlighted
                     ? "bg-amber-glow text-void hover:brightness-110 focus-visible:outline-amber-glow"

@@ -42,7 +42,7 @@ export default function Nav() {
             </a>
           ))}
           <a
-            href="#cta"
+            href="/login"
             className="rounded-full bg-gradient-to-r from-indigo-500 to-cyan-400 px-4 py-2 text-sm font-semibold text-void shadow-glow-sm transition hover:brightness-110"
           >
             Start creating
@@ -72,7 +72,7 @@ export default function Nav() {
                 {l.label}
               </a>
             ))}
-            <a href="#cta" className="rounded-full bg-indigo-500 px-4 py-2.5 text-center text-sm font-semibold text-white" onClick={() => setOpen(false)}>
+            <a href="/login" className="rounded-full bg-indigo-500 px-4 py-2.5 text-center text-sm font-semibold text-white" onClick={() => setOpen(false)}>
               Start creating
             </a>
           </div>

@@ -16,7 +16,7 @@ export default function Hero() {
         continuity, Unreal-grade atmosphere, and edit-ready scenes in one dark studio.
       </p>
       <div className="mt-10 flex flex-wrap gap-4">
-        <a href="#cta" className="rounded-full bg-gradient-to-r from-amber-glow to-amber-soft px-6 py-3 text-sm font-semibold text-zinc-950 shadow-glow transition hover:brightness-110">
+        <a href="/login" className="rounded-full bg-gradient-to-r from-amber-glow to-amber-soft px-6 py-3 text-sm font-semibold text-zinc-950 shadow-glow transition hover:brightness-110">
           Start creating
         </a>
         <a href="#showcase" className="rounded-full border border-white/15 bg-white/5 px-6 py-3 text-sm font-medium text-white backdrop-blur hover:bg-white/10">Watch demo</a>
