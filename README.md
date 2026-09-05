@@ -1,29 +1,28 @@
-# LumenForge Marketing Site
+# LumenForge
 
-Marketing site for **LumenForge** — AI long-form cinematic video.
+Marketing site for **LumenForge** — AI long-form cinematic video creation.
+Dark Unreal-inspired aesthetic; original copy and CSS/SVG only.
 
 ## Stack
 
-- Next.js App Router
-- TypeScript
-- Tailwind CSS
+- Next.js App Router + TypeScript + Tailwind CSS
 
-## Getting started
+## Develop
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open http://localhost:3000
+## Build
 
-## Scripts
-
-- `npm install` — install deps
-- `npm run dev` — local server
-- `npm run build` — production build
-- `npm run start` — serve build
+```bash
+npm install
+npm run build
+```
 
 ## Notes
 
-Pricing placeholders for later polish.
+- Pricing placeholders for later polish
+- Demo social-proof labels
+- Waitlist form is UI-only
